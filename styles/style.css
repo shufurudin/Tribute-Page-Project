@@ -1,5 +1,12 @@
 @charset "UTF-8";
 
+@font-face {
+    font-family: 'Midorima';
+    src: url('../fonts/Midorima-PersonalUse-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -9,6 +16,8 @@
 html {
     width: 100%;
     height: 100%;
+    font-family: 'Lucida Sans Unicode', sans-serif;
+
 }
 
 #main {
@@ -21,31 +30,51 @@ html {
 
 #upper-div {
     width: 100%;
-    padding: 25px 0;
+    padding: 10px 0 25px 0;
     background-color: #4D2562;
     color: whitesmoke;
     text-align: center;
 }
+#upper-div h1 {
+    font-family: 'Midorima', sans-serif;
+    font-size: 3em;
+    letter-spacing: 0.2em;
+}
+#upper-div > h1 > span {
+    font-size: 1.2em;
+    letter-spacing: 0.25em;
+}
 #upper-div p {
+    font-family: 'Midorima', sans-serif;
+    letter-spacing: 0.1em;
     margin-bottom: 15px;
 }
-#upper-div figure {
+#flex-div {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#flex-div .sumo-kanji {
+    display: none;
+    max-width: 180px;
+    margin: auto;
+}
+#flex-div figure {
     width: 94%;
     max-width: 1000px;
-    margin: auto;
     background: url(../img/JSA-dif.jpg) ;
     border-radius: 3px;
 }
-#upper-div img {
+#flex-div #image {
     width: 85%;
     max-width: 800px;
     margin: 15px;
     /* border: 2px double white; */
     box-shadow: 1px 0px 2px rgba(0, 0, 0, 0.603);
 }
-#upper-div figcaption {
+#flex-div figcaption {
     position: relative;
-    top: -20px;
+    top: -23px;
     width: 85%;
     max-width: 800px;
     margin: auto;
@@ -55,7 +84,29 @@ html {
 
 #tribute-info {
     width: 80%;
-    height: 500px;
+    height: 1000px;
     margin: 10px auto;
-    background-color: #4D2562;
+    padding: 15px;
+    background-color: #FFFEFF;
+}
+#tribute-info .img-left {
+    float: inline-start;
+    background: url(../img/asashoryu.jpg) no-repeat local center top;
+    background-size: cover;
+    width: 100px;
+    height: 100px;
+    margin-right: 5px;
+    border-radius: 50%;
+}
+#tribute-info .img-right {
+    float: inline-end;
+    background: url(../img/sad-asashoryu.jpg) no-repeat local center center;
+    background-size: cover;
+    width: 100px;
+    height: 100px;
+    margin-left: 5px;
+    border-radius: 50%;
+}
+#tribute-info p {
+    display: inline;
 }
