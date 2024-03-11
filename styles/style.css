@@ -26,6 +26,7 @@ html {
         #E0D7C5
         #D7C5E0
     */
+    padding-bottom: 15px;
 }
 
 #upper-div {
@@ -39,6 +40,7 @@ html {
     font-family: 'Midorima', sans-serif;
     font-size: 3em;
     letter-spacing: 0.2em;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
 }
 #upper-div > h1 > span {
     font-size: 1.2em;
@@ -48,6 +50,7 @@ html {
     font-family: 'Midorima', sans-serif;
     letter-spacing: 0.1em;
     margin-bottom: 15px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
 }
 #flex-div {
     display: flex;
@@ -69,7 +72,6 @@ html {
     width: 85%;
     max-width: 800px;
     margin: 15px;
-    /* border: 2px double white; */
     box-shadow: 1px 0px 2px rgba(0, 0, 0, 0.603);
 }
 #flex-div figcaption {
@@ -84,7 +86,8 @@ html {
 
 #tribute-info {
     width: 80%;
-    height: 1000px;
+    max-width: 1200px;
+    height: 100%;
     margin: 10px auto;
     padding: 15px;
     background-color: #FFFEFF;
@@ -107,6 +110,47 @@ html {
     margin-left: 5px;
     border-radius: 50%;
 }
+#tribute-info .img-left2 {
+    float: inline-start;
+    background: url(../img/asashoryu-yes-remake.jpg) no-repeat local center top;
+    background-size: cover;
+    width: 100px;
+    height: 100px;
+    margin-right: 5px;
+    border-radius: 50%;
+}
+#tribute-info .pt1, .pt2, .pt3, .end {
+    margin: 0 10px;
+}
+#tribute-info .pt1 {
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+#tribute-info .pt2 {
+    margin-bottom: 25px;
+}
+#tribute-info .pt3 {
+    margin-bottom: 25px;
+}
+#tribute-info .pt4 {
+    text-align: center;
+    margin-bottom: 25px;
+}
 #tribute-info p {
     display: inline;
+}
+#tribute-info h2 {
+    text-shadow: 1px 1px 2px rgba(66, 66, 66, 0.322);
+}
+#tribute-info iframe {
+    width: 100%;
+    max-width: 1000px;
+    height: 180px;
+}
+#tribute-info a {
+    text-decoration: none;
+    color: #4D2562;
+}
+#tribute-info a:hover {
+    color: #E5D8C6;
 }

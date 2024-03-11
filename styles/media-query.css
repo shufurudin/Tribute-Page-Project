@@ -1,1 +1,116 @@
 @charset "UTF-8";
+
+@media screen and (min-width: 600px){
+    #flex-div #image {
+        width: 430px;
+    }
+    #flex-div figcaption {
+        width: 430px;
+    }
+
+    #tribute-info iframe {
+        height: 310px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    #upper-div h1 {
+        font-size: 4em;
+    }
+    #upper-div p {
+        font-size: 1.1em;
+    }
+    #flex-div #image {
+        width: 500px;
+    }
+    #flex-div figcaption {
+        width: 500px;
+    }
+    #flex-div .sumo-kanji {
+        display: block;
+        max-width: 100px;
+    }
+    #flex-div figure {
+        width: 650px;
+    }
+
+    #tribute-info iframe {
+        height: 350px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    #flex-div #image {
+        width: 800px;
+    }
+    #flex-div figcaption {
+        width: 800px;
+    }
+    #flex-div figure {
+        width: 950px;
+    }
+
+    #tribute-info .halfed {
+        display: flex;
+        margin-top: 10px;
+    }
+    #tribute-info .pt1 {
+        width: 63%;
+        margin-top: 0;
+    }
+    #tribute-info .pt2 {
+        width: 37%;
+    }
+
+    #tribute-info iframe {
+        height: 550px;
+    }
+
+    .end {
+        display: block;
+        text-align: center;
+        background-color: #e4d7c538;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    #upper-div h1 {
+        font-size: 4.5em;
+    }
+    #upper-div p {
+        font-size: 1.2em;
+    }
+    
+    #flex-div .sumo-kanji {
+        max-width: 9%;
+    }
+    #flex-div #image {
+        width: 94%;
+    }
+    #flex-div figcaption {
+        width: 85%;
+    }
+    #flex-div figure {
+        width: 94%;
+    }
+
+    #tribute-info .big-half {
+        display: flex;
+        margin-top: 10px;
+    }
+    #tribute-info .halfed {
+        width: 60%;
+    }
+    #tribute-info .pt3 {
+        width: 40%;
+    }
+    #tribute-info .img-right {
+        float: inline-start;
+        margin-left: 0;
+        margin-right: 5px;
+    }
+
+    #tribute-info .halfed {
+        margin-top: 0;
+    }
+}
