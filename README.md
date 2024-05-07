@@ -1,2 +1,3 @@
-# Tribute-Page-Project
- A web page using HTML and CSS in tribute of sumo
+## Very welcome to my project!
+
+This was my second project learning HTML and CSS on freeCodeCamp.
